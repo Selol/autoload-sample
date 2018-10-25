@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "MyCompany\\MyApp\\": "app/"
+        },
+        "files": [
+            "app/Support/helpers.php"
+        ]
+    }
+}
