@@ -9,14 +9,10 @@
 require_once __DIR__ . '/vendor/autoload.php';
 
 // autoload class
-use MyCompany\MyApp\Config\Service;
+use MyApp\Config\Service;
 echo Service::getProjectName();
 
 // autoload function
 echo value(function () {
     return 'works';
 });
-
-
-
-

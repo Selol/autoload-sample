@@ -6,7 +6,7 @@
  *        Created:  十月 24, 下午5:58
  */
 
-namespace MyCompany\MyApp\Config;
+namespace MyApp\Config;
 
 
 class Service

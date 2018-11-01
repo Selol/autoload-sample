@@ -1,12 +1,12 @@
 <?php
 /**
- *       Filename:  database.phphp
+ *       Filename:  Database.php
  *    Description:
  *         Author:  Selol
  *        Created:  十月 24, 下午5:28
  */
 
-namespace MyCompany\MyApp\Config;
+namespace MyApp\Config;
 
 class Database
 {
