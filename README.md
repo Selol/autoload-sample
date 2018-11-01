@@ -1,19 +1,25 @@
 # autoload-sample
 php sample using autoload
 
+## install components
+``` {.sourceCode .shell}
+composer install
+```
+## enjoy autoload
+``` {.sourceCode .shell}
+php index.php
+./vendor/bin/phpunit
+```
+## add more third-party packages
+``` {.sourceCode .shell}
+composer require monolog/monolog
+composer require guzzlehttp/guzzle
+```
 
-## how to install other third-party packages
-* 
-    ```shell
-    composer require monolog/monolog
-    composer require guzzlehttp/guzzle
-    ```
-
-
-## how to add more custom path
+## add more custom path
 1. open composer.json
 2. edit like this
-    ```javascript
+    ```{.sourceCode .javascript}
     {
         "autoload": {
             "psr-4": {
@@ -26,9 +32,8 @@ php sample using autoload
         }
     }
     ```
-
 3. run this command
-    ```shell
+    ``` {.sourceCode .shell}
     composer dump-autoload
     ```
 
